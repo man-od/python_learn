@@ -15,8 +15,8 @@
 
 So, for the example above your script should print:
 
-`` 00000254b208c0f43409d8dc00439896
-0000085a34260d1c84e89865c210ceb4
-0000071f49cffeaea4184be3d507086v ``
+`` 00000254b208c0f43409d8dc00439896 ``
+``0000085a34260d1c84e89865c210ceb4 ``
+``0000071f49cffeaea4184be3d507086v ``
 
 `` ~$ python blocks.py data_hashes_10lines.txt 10 ``
