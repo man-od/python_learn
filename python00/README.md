@@ -32,3 +32,61 @@ You must write a script that takes an input message as a command-line argument a
 
 An example of running a script:
 `` ~$ python decypher.py "Have you delivered eggplant pizza at restored keep?" ``
+
+## Exercise 02: Track and Capture
+To successfully complete the task, you need to write a Python script named "mfinder.py" that can process a 2D "image" given as text in a file called "m.txt". The file contains five characters over three lines, forming a 3x5 pattern, and you need to identify if the pattern resembles the letter 'M' made out of stars ('*'). 
+
+Your code should do the following:
+
+1. Read the contents of the "m.txt" file, which represents the 2D image.
+2. Check if the pattern matches the letter 'M' made out of stars ('*').
+3. Print 'True' if the M-pattern exists in the given input image, or 'False' otherwise.
+4. If the given pattern is not a 3x5 size, print 'Error'.
+
+Examples:
+
+For the input image:
+
+```
+*****
+*****
+*****
+```
+
+The output should be:
+
+```
+True
+```
+
+For the input image:
+
+```
+*****
+*****
+*****
+*s*f*
+**f**
+*a***
+```
+
+The output should be:
+
+```
+False
+```
+
+For an invalid pattern:
+
+```
+*a*
+*b*c
+```
+
+The output should be:
+
+```
+Error
+```
+
+After writing the code, name the file as "mfinder.py". Once you complete the task, Lestrade will upload the code to the police servers, and the cameras will be able to locate terrorists using the M-patterns.
