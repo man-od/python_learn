@@ -15,8 +15,20 @@
 
 So, for the example above your script should print:
 
-`` 00000254b208c0f43409d8dc00439896 ``
+``00000254b208c0f43409d8dc00439896 ``
 ``0000085a34260d1c84e89865c210ceb4 ``
 ``0000071f49cffeaea4184be3d507086v ``
 
 `` ~$ python blocks.py data_hashes_10lines.txt 10 ``
+
+## Exercise 01: Decypher
+To successfully complete the task, you need to write a Python script called "decypher.py" that can decrypt messages. The messages have a strange cipher, where each word is represented by the first letter of the original word.
+
+Sample message: "The only way to get in touch with Brenda quickly is to explicitly deliver the products"
+
+Encrypted message: "TowerrrBride"
+
+You must write a script that takes an input message as a command-line argument and decodes it to output a single word response with no spaces.
+
+An example of running a script:
+`` ~$ python decypher.py "Have you delivered eggplant pizza at restored keep?" ``
